@@ -41,8 +41,11 @@ name = input("What is your name? ")
 length = len(name)
 print(length)
 
-# example:
+# swapping :
 a = input("a: ")
 b = input("b: ")
+d = a
+a = b
+b = d
 print("a = "+ a)
 print("b = "+ b)
