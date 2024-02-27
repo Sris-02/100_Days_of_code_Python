@@ -5,7 +5,7 @@ print("print('what to print')")
 #adding blank lines
 print("\n\n")
 print("Hello World!\nHello World!\nHello World!")
-#adding blank lines
+#adding new lines using backslash n.
 print("\n\n")
 #string concatenation
 print("Hello"+" "+"Angel")
