@@ -49,3 +49,10 @@ a = b
 b = d
 print("a = "+ a)
 print("b = "+ b)
+
+# Naming a variable
+# 1. Make your code readable.
+# 2. Numbers can be used in the name of the variable but not at the start.
+# 3. Do not use the function names as the name of the variable.
+# 4. Do not use the privilege words as the name of the variable.
+
