@@ -40,3 +40,9 @@ print(name)
 name = input("What is your name? ")
 length = len(name)
 print(length)
+
+# example:
+a = input("a: ")
+b = input("b: ")
+print("a = "+ a)
+print("b = "+ b)
