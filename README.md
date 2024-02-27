@@ -1,5 +1,3 @@
-#Test Readme
-hello everyone
-Day 1- Python print function 
-It is declared like this :
-print('something...')
+#100 Days of code 
+<!--Day 1  -->
+Python print function
