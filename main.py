@@ -15,4 +15,5 @@ print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print(("New lines can be created with a backslash and n."))
 #input function
+# nested inside the other i.e. input function inside the print function.
 print("Hello " + input("What is your name?"))
