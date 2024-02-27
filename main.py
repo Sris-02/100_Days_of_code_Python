@@ -8,6 +8,7 @@ print("Hello World!\nHello World!\nHello World!")
 #adding new lines using backslash n.
 print("\n\n")
 #string concatenation
+# string exercise
 print("Hello"+" "+"Angel")
 # String Manipulation
 print("Day 1 - String Manipulation")
@@ -17,3 +18,6 @@ print(("New lines can be created with a backslash and n."))
 #input function
 # nested inside the other i.e. input function inside the print function.
 print("Hello " + input("What is your name?"))
+# input exercise:)
+print(len(input("What is your name?")))
+
