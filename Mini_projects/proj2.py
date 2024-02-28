@@ -12,4 +12,5 @@ total_bill = bill + total_tip
 people_no = int(input("How many people to split the bill? "))
 per_person_bill = total_bill / people_no
 #Format the result to 2 decimal places = 33.60
-print(round(per_person_bill, 2))
+final_amt = round(per_person_bill, 2)
+print(f"Each person should pay : ${final_amt}")
