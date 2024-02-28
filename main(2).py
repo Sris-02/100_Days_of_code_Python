@@ -48,6 +48,24 @@ print(str(70) + str(100))
 
 # data type exercise
 two_digit_number = input("Enter two digit number: ") 
-print(type(two_digit_number))
 print((int(two_digit_number[0])) + (int(two_digit_number[1])))
 
+# Mathematical Operations
+print(3 + 5)
+print(7 - 3)
+print(3 * 2)
+print(6 / 3)
+# print(type(6 / 3)) is float
+print(2 ** 3)
+# PEMDAS
+print(3 * 3 + 3 / 3 - 3)
+print(3 * (3 + 3) / 3 - 3)
+
+
+# BMI - Calculator :
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+new_height = float(height)
+new_weight = float(weight)
+BMI = new_weight / (new_height) ** 2
+print(BMI)
