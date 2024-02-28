@@ -1,8 +1,7 @@
 #Data Types
 
 # Strings
-# pulling out a particular element from a string is called subscripting
-# number in the square brackets determines which character you want to pull out
+# subscripting
 print("Hello"[4])
 print("Hello"[0])
 
@@ -10,15 +9,13 @@ print("Hello"[0])
 print("123" + "345")
 
 # Integer
-# whole numbers without any decimal places
+
 print(123 + 345)
 # underscores can be used as commas in large numbers
 print(123_456_789)
 
 # Float
-# numbers with decimal places
 print(3.14159)
-# floating point number
 
 # Boolean
 
@@ -26,7 +23,6 @@ print(True)
 print(False)
 
 # Type Error, Type Checking and Type Conversion
-# len(4837)
 
 num_char = len(input("what is your name? "))
 # print("Your name has " + num_char + " characters.")
@@ -49,3 +45,9 @@ print(type(a))
 print(70 + float("100.5"))
 
 print(str(70) + str(100))
+
+# data type exercise
+two_digit_number = input("Enter two digit number: ") 
+print(type(two_digit_number))
+print((int(two_digit_number[0])) + (int(two_digit_number[1])))
+
