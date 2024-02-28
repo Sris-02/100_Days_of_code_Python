@@ -71,3 +71,35 @@ BMI = new_weight / (new_height) ** 2
 print(BMI)
 bmi_as_int = int(BMI)
 print(bmi_as_int)
+
+# Number Manipulation and F Strings in Python
+print(round(8 / 3))
+# round upto 2 decimal places
+print(round(8 / 3, 2))
+# floor division
+print(8 // 3)
+result = 4 / 2
+result /= 2
+print(result)
+
+score = 0
+# user scores a point
+score += 1
+
+print(score)
+
+# f-string
+score = 0
+height = 1.8
+isWinning = True
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+age = input("What is your current age?")
+#Life in Weeks - Exercise : 
+age_as_int = int(age)
+years_remaining = 90 - age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+msg = f"You have {days_remaining} days, {weeks_remaining} weeks and {months_remaining} months left."
+print(msg)
