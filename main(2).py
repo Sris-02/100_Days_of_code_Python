@@ -69,3 +69,5 @@ new_height = float(height)
 new_weight = float(weight)
 BMI = new_weight / (new_height) ** 2
 print(BMI)
+bmi_as_int = int(BMI)
+print(bmi_as_int)
