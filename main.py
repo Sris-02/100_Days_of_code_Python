@@ -10,7 +10,7 @@ print("Hello World!\nHello World!\nHello World!")
 print("\n\n")
 
 # string concatenation
-# string exercise
+# string exercise(one of the data types)
 print("Hello"+" "+"Angel")
 
 # String Manipulation
