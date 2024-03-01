@@ -289,5 +289,23 @@ else:
 
 #Leap year exercise -
 
+e.g. 2000 / 4 = 500 (Leap)
+     2000 / 100 = 20 (Not leap)
+     2000 / 400 = 5 (Leap)
+
+```
+# Leap year exercise
+year = int(input("Which year do you want to check? "))
+if year % 4 ==0:
+  if year % 100 == 0:
+    if year % 400 == 0:
+      print("Leap year. ")
+    else :
+      print("Not a leap year. ")
+  else:
+    print("Not a leap year. ")
+else:
+  print("Leap year. ")
+```
 
 
