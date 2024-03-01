@@ -62,3 +62,6 @@ if year % 4 ==0:
     print("Not a leap year. ")
 else:
   print("Leap year. ")
+
+# Multiple if statements in succession.
+
