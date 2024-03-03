@@ -52,11 +52,11 @@ else:
 
 # Leap year exercise
 year = int(input("Which year do you want to check? "))
-if year % 4 ==0:
+if year % 4 == 0:
   if year % 100 == 0:
     if year % 400 == 0:
       print("Leap year. ")
-    else :
+    else:
       print("Not a leap year. ")
   else:
     print("Not a leap year. ")
@@ -83,9 +83,28 @@ if height >= 120:
   if wants_photo == "Y":
     print(f"Your final bill is ${bill + 3}.")
 else:
-  print("Sorry, you have to grow taller beforre you can ride. ")
+  print("Sorry, you have to grow taller before you can ride. ")
 
 # Pizza order exercise :
 print("Welcome to Python Pizza Deliveries! ")
 size = input("What size pizza do you want? S, M, or L.")
 add_pepperoni = input("Do you want pepperoni? Y or N. ")
+extra_cheese = input("Do you want extra cheese? Y or N. ")
+bill = 0
+if size == 'S':
+  bill += 15
+elif size == 'M':
+  bill += 20
+  
+else:
+  bill += 25
+
+if add_pepperoni == 'Y':
+  if size == 'Y':
+    bill += 2
+  else:
+    bill += 3
+    
+if extra_cheese == 'Y':
+  bill += 1
+print(f"Your final bill is: ${bill}. ")
