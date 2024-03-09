@@ -371,7 +371,7 @@ print(f"Your final bill is: ${bill}. ")
 ```
 
 #Love Calculator :
-example exercise - 
+example exercise - just for fun and play with conditional statements ... yes we can use the random function for the same but that gonna be learn next..
 ```
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
@@ -456,10 +456,16 @@ else:
   #randomisation is used to generate random numbers.
 ```
   import random
-  #import my_module
+  
+  <!--import my_module 
+      print(my_module.pi)-->
 
   random_integer = random.randint(1, 10)
   print(random_integer)
+
+<!-- random.random() generates next random floating point number between (0.0 to 1.0) 
+
+when random number multiply with a number we will end up with random number under the range we desire. like the below example.-->
 
   randomFloat = random.random() * 5
   print(randomFloat)
