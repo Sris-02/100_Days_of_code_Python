@@ -14,6 +14,10 @@ print(randomFloat)
 love_score = random.randint(1, 100)
 print(f"Your love score is {love_score}")
 
+# Random Exercise : Heads or Tails
+
+import random
+
 states_of_america = [
     "Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut",
     "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia",
